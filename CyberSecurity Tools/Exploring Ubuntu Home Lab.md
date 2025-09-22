@@ -6,8 +6,8 @@ on your server. Knowing which interfaces are active and their IP addresses helps
 understand your server's network configuration.
 Tool Explanation: ip a and ifconfig are utilities that provide detailed information about
 
-> [!NOTE]
-> network interfaces, including their status (up or down), IP addresses, and more.****
+ > [!NOTE]
+ > network interfaces, including their status (up or down), IP addresses, and more.****
 
 NOTE: You may have to install net-tools in order to run ifconfig. To do so, run the command:
 ``sudo apt install net-tools
