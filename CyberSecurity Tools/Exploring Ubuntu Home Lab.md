@@ -22,12 +22,14 @@
 
 	Example Output: 
 	
+   <img width="777" height="245" alt="Image" src="https://github.com/user-attachments/assets/f6b4a82b-c475-40c2-b8e8-576a66a8df8a" />
 
 	
 
 	Example Output: 
 	
 	
+   <img width="683" height="317" alt="Image" src="https://github.com/user-attachments/assets/67035355-1142-40ab-81cc-8764161e4f72" />
 
 
 3. Check Open Ports
