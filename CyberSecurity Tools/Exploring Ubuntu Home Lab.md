@@ -84,7 +84,7 @@
 	**Command:** sudo nmap -sS -O localHost
 
 	Purpose: The Network Mapper, nmap, is a network scanner that will check what ports are open, the processes running, what type of firewalls are in use, and the type of OS. It can be used for security audits.
-	>[!warning] 
+	
 	>DO NOT use this on any site without permission
 
 	Tool Explanation: Some of the tools will help run a port scan or show the Operating System being used.
@@ -160,7 +160,7 @@
 
 	Example Output:
 
->[!note]
+
 >Use CTRL + C to stop process
 
 <img width="801" height="692" alt="Image" src="https://github.com/user-attachments/assets/86d9ba1b-4d25-4ddb-831e-85f57477158d" />
@@ -200,13 +200,13 @@
 
 	Example Output:
 
-	>[!note] 
+	
 	>Installation of firewall pending
 
 	<img width="707" height="67" alt="Image" src="https://github.com/user-attachments/assets/be574754-92bc-4c66-b20b-f17da27a45e5" />
 
 
->References
+
 >Linux Commands Cheat Sheet
 >https://linux-commands.labex.io/
 >
