@@ -206,7 +206,7 @@
 	<img width="707" height="67" alt="Image" src="https://github.com/user-attachments/assets/be574754-92bc-4c66-b20b-f17da27a45e5" />
 
 
->[!info] References
+>References
 >Linux Commands Cheat Sheet
 >https://linux-commands.labex.io/
 >
