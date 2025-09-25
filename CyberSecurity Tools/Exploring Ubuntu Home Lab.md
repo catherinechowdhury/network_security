@@ -47,8 +47,8 @@
 			4) -n : Displays numerical addresses 
 
 	Example Output:
-	![[Pasted image 20250922114225.png]]
-	 
+	
+	<img width="751" height="211" alt="Image" src="https://github.com/user-attachments/assets/e47d2917-206e-4978-bc0c-cb85537df6f1" />
 
 4. Analyze Network Connections
 
@@ -75,8 +75,9 @@
 			12) NAME : Path or link to file
 	
 	Example Output: 
-	
-	![[Pasted image 20250922115832.png]]
+
+	<img width="772" height="212" alt="Image" src="https://github.com/user-attachments/assets/b3d14c22-b004-4c2c-aee2-36fd2f584b8f" />
+
 
 5. Perform Network Scanning with Nmap
 
@@ -94,7 +95,7 @@
 
 	Example Output:
 	
-	![[Pasted image 20250922121238.png]]
+	<img width="762" height="282" alt="Image" src="https://github.com/user-attachments/assets/7af9aed0-82db-4fba-9203-d88c1c7c492e" />
 	
 6. Check for Open Ports on the Server's Network
 
@@ -110,7 +111,7 @@
 
 	Example Output:
 	
-	![[Pasted image 20250924181836.png]]
+	<img width="655" height="100" alt="Image" src="https://github.com/user-attachments/assets/7d89320e-98a2-41cc-99c7-20d48365fdfb" />
 		
 	
 7. Check for Services and Versions
@@ -126,7 +127,8 @@
 
 	Example Output:
 
-	![[Pasted image 20250924182151.png]]
+	<img width="777" height="230" alt="Image" src="https://github.com/user-attachments/assets/ac193042-a9be-47ab-8f72-48abac99b0a2" />
+
 	
 8. Identify Potential Vulnerabilities
 
@@ -142,7 +144,7 @@
 
 	Example Output:
 
-	![[Pasted image 20250924182331.png]]
+	<img width="745" height="277" alt="Image" src="https://github.com/user-attachments/assets/553ae760-7275-47c8-bbda-f44aec3f1d42" />
 	
 	
 9. Inspect Network Traffic
@@ -161,9 +163,8 @@
 >[!note]
 >Use CTRL + C to stop process
 
+<img width="801" height="692" alt="Image" src="https://github.com/user-attachments/assets/86d9ba1b-4d25-4ddb-831e-85f57477158d" />
 	
-![[Pasted image 20250924184018.png]]
-
 
 9. Monitor Network Connection in Real-Time
 
@@ -182,8 +183,8 @@
 
 	Example Output:
 
-	![[Pasted image 20250924183324.png]]
-
+	<img width="766" height="420" alt="Image" src="https://github.com/user-attachments/assets/aa2c5c3e-9a04-4481-a37e-27485d15d619" />
+	
 
 10. Check Firewall Rules
 	
@@ -202,7 +203,7 @@
 	>[!note] 
 	>Installation of firewall pending
 
-	![[Pasted image 20250924184538.png]]
+	<img width="707" height="67" alt="Image" src="https://github.com/user-attachments/assets/be574754-92bc-4c66-b20b-f17da27a45e5" />
 
 
 >[!info] References
