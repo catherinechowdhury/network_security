@@ -15,7 +15,7 @@
 
 	Example: The following shows various options for the ip command
 	
-	![[Pasted image 20250924180522.png]]
+	<img width="767" height="398" alt="Image" src="https://github.com/user-attachments/assets/6d2f21ca-4bb7-4431-bce3-c53574c083a5" />
 	
 	
 
