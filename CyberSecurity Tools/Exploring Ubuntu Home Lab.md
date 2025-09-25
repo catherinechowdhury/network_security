@@ -21,13 +21,13 @@
 
 
 	Example Output: 
-	![[Pasted image 20250922112358.png]]
+	
 
 	
 
 	Example Output: 
 	
-	![[Pasted image 20250922110756.png]]
+	
 
 
 3. Check Open Ports
