@@ -7,10 +7,9 @@
 	Tool Explanation: These commands help provide this information. The ip command has various OPTIONS (flags) as shown below. 
 	
 		ip Syntax: ip [OPTIONS] OBJECT {COMMAND | help}
-		
 			1)  ip a (ip address): Shows all IP addresses associated with all network devices
 			
-		ifconfig Options: 
+		ifconfig Options:
 			2)  ifconfig [interface] : Displays the configuration details of the specified network interface
 			3) ifconfig : Displays the configuration details of all network interfaces
 
@@ -31,7 +30,7 @@
 	![[Pasted image 20250922110756.png]]
 
 
-2. Check Open Ports
+3. Check Open Ports
 
 	**Command:** sudo netstat -tuln **or** ss -tuln
 
@@ -49,7 +48,7 @@
 	![[Pasted image 20250922114225.png]]
 	 
 
-3. Analyze Network Connections
+4. Analyze Network Connections
 
 	**Command:** sudo lsof -i -P -n
 	
@@ -77,7 +76,7 @@
 	
 	![[Pasted image 20250922115832.png]]
 
-4. Perform Network Scanning with Nmap
+5. Perform Network Scanning with Nmap
 
 	**Command:** sudo nmap -sS -O localHost
 
@@ -95,7 +94,7 @@
 	
 	![[Pasted image 20250922121238.png]]
 	
-5. Check for Open Ports on the Server's Network
+6. Check for Open Ports on the Server's Network
 
 	**Command:** sudo nmap -sP  Machine_Address
 
@@ -112,7 +111,7 @@
 	![[Pasted image 20250924181836.png]]
 		
 	
-6. Check for Services and Versions
+7. Check for Services and Versions
 
 	**Command:** sudo nmap -sV localhost
 
@@ -127,7 +126,7 @@
 
 	![[Pasted image 20250924182151.png]]
 	
-7. Identify Potential Vulnerabilities
+8. Identify Potential Vulnerabilities
 
 	**Command:** sudo nmap --script vuln localhost
 
@@ -144,7 +143,7 @@
 	![[Pasted image 20250924182331.png]]
 	
 	
-8. Inspect Network Traffic
+9. Inspect Network Traffic
 
 	**Command:** sudo tcpdump -i eth0
 
