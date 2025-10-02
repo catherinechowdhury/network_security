@@ -31,7 +31,8 @@ I. Enable UFW (Uncomplicated Firewall)
 
 	Command: sudo ufw enable
 	
-![[Pasted image 20251002125836.png]]
+![Image](https://github.com/user-attachments/assets/2b0c9280-2ad7-49c5-8af6-044f0c64fede)
+
 5) Check the status 
 
 	Command: sudo ufw status
@@ -45,7 +46,6 @@ I. Enable UFW (Uncomplicated Firewall)
 6) Check the status using the verbose command
 	Command: sudo ufw status verbose
 
-![Image](https://github.com/user-attachments/assets/2b0c9280-2ad7-49c5-8af6-044f0c64fede)
 
 >[!note] 	
 >	The command shows the default policies for UFW. In this case, it denies all incoming traffic and allows outgoing traffic. 
