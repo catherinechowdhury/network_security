@@ -3,11 +3,11 @@ I. Enable UFW (Uncomplicated Firewall)
 1)	Check the status of UFW
 	Command: sudo UFW status 
 	
-	![[Pasted image 20251002122544.png]]
+	![Image](https://github.com/user-attachments/assets/7c1ee0e3-4563-4b89-a752-41caeb898208)
 	
 2) Check to make sure your connection to SSH is allowed
 	
-	![[Pasted image 20251002122716.png]]
+	![Image](https://github.com/user-attachments/assets/f797cd57-7d34-49a0-b70f-8bc912cdb8ca)
 
 
 >[!note] 	
@@ -20,7 +20,8 @@ I. Enable UFW (Uncomplicated Firewall)
 			3) l : Listening
 			4) n: displays address in numeric form
 
-![[Pasted image 20251002124552.png]]
+![Image](https://github.com/user-attachments/assets/5a2816a4-6ef6-4d2e-813a-55bf9eb7b93c)
+
 	Check specific service of that port			
 	Command: sudo lsof -i :*portNumber*  
 	
@@ -44,7 +45,7 @@ I. Enable UFW (Uncomplicated Firewall)
 6) Check the status using the verbose command
 	Command: sudo ufw status verbose
 
-![[Pasted image 20251002143845.png]]
+![Image](https://github.com/user-attachments/assets/2b0c9280-2ad7-49c5-8af6-044f0c64fede)
 
 >[!note] 	
 >	The command shows the default policies for UFW. In this case, it denies all incoming traffic and allows outgoing traffic. 
@@ -60,12 +61,13 @@ I. Enable UFW (Uncomplicated Firewall)
 >[!note] 	
 >	Port 587 is used for secure email submission
 
-![[Pasted image 20251002145056.png]]
+![Image](https://github.com/user-attachments/assets/cb073f5b-a2b9-430f-86b8-e9a9a06443c0)
+
 
 II. Enable UFW Logging
 
 1) Ensure that UFW logging is enabled
-![[Pasted image 20251002145327.png]]
+![Image](https://github.com/user-attachments/assets/b2acafd7-ba34-420c-8550-bc92b8eaba17)
 
 2) If you need more detailed or less verbose logs, change the logging levels.
 
@@ -75,7 +77,8 @@ II. Enable UFW Logging
 	3) high : includes all blocked packets and connection information
 	4) full : extensive logging of all UFW events
 	
-	![[Pasted image 20251002145609.png]]
+	![Image](https://github.com/user-attachments/assets/9b96e245-8d8d-43ca-b8ea-6e52a3a39e85)
+
 
 3) Logging Details
 
@@ -87,7 +90,7 @@ II. Enable UFW Logging
 	6) PROTO: Protocol used (e.g., TCP, UDP) - PROTO=TCP
 	7) UFW BLOCK: Indicates that the packet was blocked by UFW
 	
-![[Pasted image 20251002150245.png]]
+![Image](https://github.com/user-attachments/assets/ec0b5b9c-5c3c-43b4-a2ef-a4bc78c5e64e)
 
 >[!note] 	
 >	This information can provide insight into system activities, analyzing system errors, and detect security incidents. 
@@ -97,7 +100,8 @@ II. Enable UFW Logging
 	1) tail : views the end of files
 	2) -f : monitors log files in real time
 
-	![[Pasted image 20251002151716.png]]
+	![Image](https://github.com/user-attachments/assets/de8fc9a0-554b-4165-9958-c84818756618)
+
 
 >[!note] 	
 >	Use Ctrl + C to terminate command
@@ -105,10 +109,10 @@ II. Enable UFW Logging
 5) Filter Specific Entries Using the GREP command
 	Command for denied traffic: sudo grep 'DENY' /var/log/ufw.log
 	
-![[Pasted image 20251002152719.png]]
+![Image](https://github.com/user-attachments/assets/d6e0fe33-d5db-4e3a-989e-d3fddcfe8cef)
 	Command for allowed traffic: sudo grep 'ALLOW' /var/log/ufw.log
 
-![[Pasted image 20251002152642.png]]
+![Image](https://github.com/user-attachments/assets/fcf362ad-33f3-4cf2-8d35-19c1c9385249)
 
 >[!note] 	
 >	There is no output for DENY. Recall that the default policy for UFW is to deny incoming traffic unless a rule indicates otherwise. In this example, there was no indication of any incoming traffic. 
