@@ -129,7 +129,8 @@ II. Enable UFW Logging
 
 
 
->[!info] References
+>[!info]
+>References
 >UFW
 >https://help.ubuntu.com/community/UFW#Allow_and_Deny_.28specific_rules.29 
 
