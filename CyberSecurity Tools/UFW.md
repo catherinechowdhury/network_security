@@ -99,7 +99,7 @@ II. Enable UFW Logging
 	6) PROTO: Protocol used (e.g., TCP, UDP) - PROTO=TCP
 	7) UFW BLOCK: Indicates that the packet was blocked by UFW
 	
-![Image](https://github.com/user-attachments/assets/ec0b5b9c-5c3c-43b4-a2ef-a4bc78c5e64e)
+![Image](https://github.com/user-attachments/assets/de8fc9a0-554b-4165-9958-c84818756618)
 
 >[!note] 	
 >	This information can provide insight into system activities, analyzing system errors, and detect security incidents. 
@@ -109,8 +109,8 @@ II. Enable UFW Logging
 	1) tail : views the end of files
 	2) -f : monitors log files in real time
 
-	![Image](https://github.com/user-attachments/assets/de8fc9a0-554b-4165-9958-c84818756618)
-
+	
+![Image](https://github.com/user-attachments/assets/d6e0fe33-d5db-4e3a-989e-d3fddcfe8cef)
 
 >[!note] 	
 >	Use Ctrl + C to terminate command
@@ -118,7 +118,8 @@ II. Enable UFW Logging
 5) Filter Specific Entries Using the GREP command
 	Command for denied traffic: sudo grep 'DENY' /var/log/ufw.log
 	
-![Image](https://github.com/user-attachments/assets/d6e0fe33-d5db-4e3a-989e-d3fddcfe8cef)
+<img width="725" height="37" alt="Image" src="https://github.com/user-attachments/assets/18d3fba4-2074-46c7-86b6-fd189d0e17dd" />
+
 	Command for allowed traffic: sudo grep 'ALLOW' /var/log/ufw.log
 
 ![Image](https://github.com/user-attachments/assets/fcf362ad-33f3-4cf2-8d35-19c1c9385249)
