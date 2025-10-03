@@ -116,6 +116,7 @@ II. Enable UFW Logging
 >	Use Ctrl + C to terminate command
 
 5) Filter Specific Entries Using the GREP command
+   
 	Command for denied traffic: sudo grep 'DENY' /var/log/ufw.log
 	
 <img width="725" height="37" alt="Image" src="https://github.com/user-attachments/assets/18d3fba4-2074-46c7-86b6-fd189d0e17dd" />
