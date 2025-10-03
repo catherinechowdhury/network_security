@@ -40,7 +40,7 @@ I. Enable UFW (Uncomplicated Firewall)
 
 	Command: sudo ufw status
 	
-	![[Pasted image 20251002142746.png]]
+	![Image](https://github.com/user-attachments/assets/cb073f5b-a2b9-430f-86b8-e9a9a06443c0)
 
 
 >[!note] 	
@@ -64,7 +64,6 @@ I. Enable UFW (Uncomplicated Firewall)
 >[!note] 	
 >	Port 587 is used for secure email submission
 
-![Image](https://github.com/user-attachments/assets/cb073f5b-a2b9-430f-86b8-e9a9a06443c0)
 
 
 II. Enable UFW Logging
