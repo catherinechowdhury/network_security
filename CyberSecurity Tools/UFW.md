@@ -28,7 +28,7 @@ I. Enable UFW (Uncomplicated Firewall)
 
 	Command: sudo lsof -i :*portNumber*  
 	
-![[Pasted image 20251002124919.png]]
+<img width="753" height="77" alt="Image" src="https://github.com/user-attachments/assets/758b61d1-079b-4e4d-a40f-ca649b848649" />
 
 4) Enable UFW
 
