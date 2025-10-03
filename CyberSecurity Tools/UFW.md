@@ -49,16 +49,21 @@ I. Enable UFW (Uncomplicated Firewall)
 6) Check the status using the verbose command
 	Command: sudo ufw status verbose
 
+![Image](https://github.com/user-attachments/assets/b2acafd7-ba34-420c-8550-bc92b8eaba17)
 
 >[!note] 	
 >	The command shows the default policies for UFW. In this case, it denies all incoming traffic and allows outgoing traffic. 
 
 7)  Blocking an IP Address
+   
 	Command: sudo ufw deny from <*ip address*>
+
 		Example: sudo ufw deny from 10.0.0.0
 	
-8) Allow Access by specific port and IP Address
+9) Allow Access by specific port and IP Address
+    
 	Command: sudo ufw allow from <*target*> to <*destination*> port <*port number*>
+
 		Example: sudo ufw allow from 192.168.1.50 to any port 587
 
 >[!note] 	
@@ -69,7 +74,7 @@ I. Enable UFW (Uncomplicated Firewall)
 II. Enable UFW Logging
 
 1) Ensure that UFW logging is enabled
-![Image](https://github.com/user-attachments/assets/b2acafd7-ba34-420c-8550-bc92b8eaba17)
+
 
 2) If you need more detailed or less verbose logs, change the logging levels.
 
