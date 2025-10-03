@@ -15,7 +15,8 @@ I. Enable UFW (Uncomplicated Firewall)
 	
 3) Socket Statistics checks network statistics.
    
-	Command: sudo ss -tuln  Socket Statistics checks network statistics
+	Command: sudo ss -tuln
+
 			1) t : TCP
 			2) u: UPD
 			3) l : Listening
