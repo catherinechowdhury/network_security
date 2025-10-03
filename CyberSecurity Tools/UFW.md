@@ -117,11 +117,11 @@ II. Enable UFW Logging
 
 5) Filter Specific Entries Using the GREP command
    
-	Command for allowed traffic: sudo grep 'ALLOW' /var/log/ufw.log
+Command for allowed traffic: sudo grep 'ALLOW' /var/log/ufw.log
 	
 <img width="725" height="37" alt="Image" src="https://github.com/user-attachments/assets/18d3fba4-2074-46c7-86b6-fd189d0e17dd" />
 
-	Command for allowed traffic: sudo grep 'ALLOW' /var/log/ufw.log
+Command for allowed traffic: sudo grep 'ALLOW' /var/log/ufw.log
 
 ![Image](https://github.com/user-attachments/assets/fcf362ad-33f3-4cf2-8d35-19c1c9385249)
 
