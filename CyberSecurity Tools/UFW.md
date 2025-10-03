@@ -13,7 +13,8 @@ I. Enable UFW (Uncomplicated Firewall)
 >[!note] 	
 >	The default policy of UFW denies any incoming traffic and only allows outgoing traffic. Before enabling UFW, you should allow traffic through port 22 or else the connection will drop and you will be unable to connect to the server via SSH. 
 	
-3) Socket Statistics checks network statistics. 
+3) Socket Statistics checks network statistics.
+   
 	Command: sudo ss -tuln  Socket Statistics checks network statistics
 			1) t : TCP
 			2) u: UPD
