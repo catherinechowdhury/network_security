@@ -71,10 +71,12 @@ I. Enable UFW (Uncomplicated Firewall)
 
 
 
+
 II. Enable UFW Logging
 
 1) Ensure that UFW logging is enabled
 
+<img width="672" height="70" alt="Image" src="https://github.com/user-attachments/assets/6a3aea5e-4d8e-46a1-86e3-bc5f9e812fb8" />
 
 2) If you need more detailed or less verbose logs, change the logging levels.
 
