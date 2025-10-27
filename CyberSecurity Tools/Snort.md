@@ -14,7 +14,7 @@ Open main configuration file to customize any Snort configurations, look over th
 
 	   sudo nano /etc/snort/snort.conf
 
-![[Pasted image 20251026184556.png]]
+![[snort configuration](Snort_Pics/snort_conf.jpg)
 
 Step 3 : Update and Manage Snort Rules
 
@@ -22,7 +22,7 @@ To add your own rules, edit the local rule file
 
 	    sudo nano /etc/snort/rules/local.rules
 
-![[Pasted image 20251026185427.png]]
+![Local Rules File](Snort_Pics/local_rules.jpg)
 
 
 Add custom rules following the conventions for a rule header
@@ -30,11 +30,11 @@ Add custom rules following the conventions for a rule header
 	     action protocol IP_ADDRESS_SOURCE PORT 
 	     -> IP_ADDRESS_DESTINATION PORT_DESTINATION 
 
-![[Pasted image 20251026185747.png]]
+![[Rules File](Snort_Pics/rules_file.jpg)
 
 * There are various rule's files found inside the rules directory. We know that one of the detection and prevention techniques in IDPS is policy-based; which makes sure that activities are compliant with company policy. The chat.rules file detects different types of chat programs being used that may be against corporate policy. 
 
-![[Pasted image 20251026192303.png]]
+![chat rules](Snort_Pics/chat.rules.jpg)
 
 * Rules can be configured to the specification of the user. They can alert, log, drop, or reject a packet. 
 
@@ -45,11 +45,11 @@ Test that Snort is running properly after configuring.
 		   sudo snort -T -c /ect/snort/snort.conf
 
 
-![[Pasted image 20251026202813.png]]
+![Configuration Command](Snort_Pics/configuration_command.jpg)
 
 View validation to confirm correct configuration.
 
-![[Pasted image 20251026202933.png]]
+![Validation](Snort_Pics/success.jpg)
 
 
 Step 5 : Running Snort in IDS Mode 
@@ -58,7 +58,7 @@ Monitor Traffic in IDS Mode
 
 		   sudo snort -c /etc/snort/snort.cong -i INTERFACE
 
-![[Pasted image 20251026203551.png]]
+![]
 
 * To exit, hit ctrl + c
 
@@ -74,17 +74,17 @@ To run in the background, specify the interface.
 
 		   sudo snort -D -c /etc/snort/snort.conf -i INTERFACE
 
-![[Pasted image 20251026210344.png]]
+![Daemon](Snort_Pics/daemon.jpg)
 
 Use the *top* command to view the different processes in your system
 
-![[Pasted image 20251026211337.png]]
+![Process](Snort_Pics/ps_grep.jpg)
 
 To check the corresponding process, use the following command.
 
 		   ps -ef | grep snort
 
-![[Pasted image 20251026212340.png]]
+![Process](Snort_Pics/ps_grep.jpg)
 
 * Use the *kill*  command and the process ID to stop the daemon
 
