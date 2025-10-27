@@ -14,7 +14,7 @@ Open main configuration file to customize any Snort configurations, look over th
 
 	   sudo nano /etc/snort/snort.conf
 
-![[snort configuration](Snort_Pics/snort_conf.jpg)
+![snort configuration](Snort_Pics/snort_conf.jpg)
 
 Step 3 : Update and Manage Snort Rules
 
