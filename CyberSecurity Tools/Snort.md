@@ -49,7 +49,7 @@ Test that Snort is running properly after configuring.
 
 View validation to confirm correct configuration.
 
-![Validation](Snort_Pics/success.jpg)
+![Validation](Snort_Pics/success_conf.jpg)
 
 
 Step 5 : Running Snort in IDS Mode 
@@ -58,7 +58,7 @@ Monitor Traffic in IDS Mode
 
 		   sudo snort -c /etc/snort/snort.cong -i INTERFACE
 
-![]
+<img width="662" height="482" alt="image" src="https://github.com/user-attachments/assets/7e6399f3-45c8-4733-a4fe-17f19ed1d9cf" />
 
 * To exit, hit ctrl + c
 
@@ -66,7 +66,7 @@ Step 6: Viewing Snort Logs
 
 Snort logs alerts in /var/log/snort. There are three files in my current directory: snort.alert, snort.alert.fast, and snort.log. Events that have triggered an alert are recorded in snort.alert and snort.alert.fast, the latter showing a brief one-line overview of the event. These alerts are triggered according to the specified rules. Since there have been no alerts, the files are empty. The processed packets can be located in the snort.log file. 
 
-![[Pasted image 20251026204508.png]]
+<img width="616" height="38" alt="image" src="https://github.com/user-attachments/assets/c6e2b950-6dec-431f-ab75-d24486f97d5a" />
 
 Step 8: Running Snort as a Daemon
 
