@@ -6,7 +6,7 @@ Install Snort directly using apt
 
 * Use the command *ip a*  to find your network interface
 * When prompted, enter network interface and the HOME_NET IP range
-![[Pasted image 20251023000710.png]]
+![Snort Installation](\Snort_Pics\snort_install.jpg)
 
 Step 2 : Configure Snort
 
