@@ -6,6 +6,7 @@ This repository showcases my cybersecurity home lab projects, which are a collec
 
 ## Table of Contents
 
-### 1 Cybersecurity Tools
+### Cybersecurity Tools
 - [Exploring Ubuntu Home Lab](CyberSecurity%20Tools/Exploring%20Ubuntu%20Home%20Lab.md)
 - [Uncomplicated Firewall](CyberSecurity%20Tools/UFW.md)
+- [Snort](CyberSecurity%20Tools/Snort.md)
