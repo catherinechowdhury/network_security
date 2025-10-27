@@ -30,7 +30,7 @@ Add custom rules following the conventions for a rule header
 	     action protocol IP_ADDRESS_SOURCE PORT 
 	     -> IP_ADDRESS_DESTINATION PORT_DESTINATION 
 
-![[Rules File](Snort_Pics/rules_file.jpg)
+![Rules File](Snort_Pics/rules_file.jpg)
 
 * There are various rule's files found inside the rules directory. We know that one of the detection and prevention techniques in IDPS is policy-based; which makes sure that activities are compliant with company policy. The chat.rules file detects different types of chat programs being used that may be against corporate policy. 
 
